@@ -20,5 +20,8 @@ class MainActivity : AppCompatActivity() {
 
         adapter = CategoryAdapter(this,DataService.categories)
         categoryListView.adapter = adapter
+        categoryListView.setOnItemClickListener { adapterView, view, position, id ->  }
+        
     }
+    
 }
